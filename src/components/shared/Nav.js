@@ -7,10 +7,10 @@ const Nav = () => (
             <a href='/'><img src={logo}/></a>
         </div>
         <div class="nav-items">
-            <a href='/'>Home</a>
-            <a href='/work'>Work</a>
-            <a href='/work'>About</a>
-            <a href='/work'>Contact</a>
+            <Link to="/">Home</Link>
+            <Link to="/work">Work</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
         </div>
     </div>
 )
